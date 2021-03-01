@@ -303,14 +303,12 @@ x = x + 1   # Reward for x
 
 ```python
 # Multi lines
-def one_public_method():
 """Return a string
 
 Here is what we do.
 """
 
 # Single line
-def one_public_method():
 """Return a string."""
 ```
 
