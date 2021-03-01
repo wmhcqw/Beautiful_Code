@@ -240,7 +240,7 @@ def complex(real, imag = 0.0):
     return magic(r = real, i = imag)
 ```
 又，如果该参数指定了类型且被赋予了默认值，则使用单个空格包裹`=`。
-```
+```python
 # Correct
 def munge(sep: str = None): ...
 def munge(input: str, sep: str = None, limit=1000): ...
